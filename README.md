@@ -1,11 +1,11 @@
 Instructions.
 
 1. Start by setting up your IMAP and turning it on in GMAIL.
-follow instructions <a href="https://support.google.com/a/answer/9003945#imap_gmail&zippy=%2Cstep-turn-on-imap-in-gmail
+Follow instructions <a href="https://support.google.com/a/answer/9003945#imap_gmail&zippy=%2Cstep-turn-on-imap-in-gmail
 ">Here</a>.
 
 2. Create the pplication password to be used in sending the Emails.
-follow instructions <a href="https://support.google.com/mail/answer/185833">Here</a>
+Follow instructions <a href="https://support.google.com/mail/answer/185833">Here</a>
 
 3. Initialize gomail. 
     ```m := gomail.NewMessage()```
