@@ -21,5 +21,5 @@ follow instructions <a hrref="https://support.google.com/mail/answer/185833">Her
     CreateMessageBody(m, "Subject", "Body")
 
 6. Send
-    message.SendEmail(m, "sender@email.com", password)
+    SendEmail(m, "sender@email.com", password)
     Where password is the application password created in step 2.

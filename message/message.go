@@ -28,7 +28,7 @@ func CreateMessageBody(messg *gomail.Message, subject, body string) *gomail.Mess
 	return messg
 }
 
-func ReciepientAndUser(messg *gomail.Message, senderEmail string, ReceivingEmails ...string) {
+func AddReciepientAndUserToheader(messg *gomail.Message, senderEmail string, ReceivingEmails ...string) {
 
 	messg.SetHeader("From", senderEmail)
 	messg.SetHeader("To", ReceivingEmails...)
