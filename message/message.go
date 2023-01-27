@@ -4,8 +4,8 @@ import (
 	"gopkg.in/gomail.v2"
 )
 
-func SendEmail(message *gomail.Message, senderEmail string) (err error) {
-	messageDialer := gomail.NewDialer("smtp.gmail.com", 465, senderEmail, "cayjcnjxggixwzwq")
+func SendEmail(message *gomail.Message, senderEmail, appPassword string) (err error) {
+	messageDialer := gomail.NewDialer("smtp.gmail.com", 465, senderEmail, appPassword)
 
 	err = messageDialer.DialAndSend(message)
 	if err != nil {
